@@ -29,13 +29,12 @@ for key in keys:
         print "NOUP, the capital is", key
         n = n + 1
         wrong.append(country)
+    question = raw_input("Would you like to continue with the quiz? (y/n) ")
+    if question.lower() == "n":
+        break
 a = n + c
 print "correct answers = ", c
 print (correct)
 print "wrong answered = ", n
 print (wrong)
 print "total answers = ", a
-
-
-
-
