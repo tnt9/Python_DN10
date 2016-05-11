@@ -1,5 +1,4 @@
 import random
-from datetime import datetime
 city_country = {"VIENNA": "Austria", "BRUSSELS": "Belgium", "SOFIA": "Bulgaria",
                 "NICOSIA": "Cyprus", "PRAGUE": "Czech Republic", "COPENHAGEN": "Denmark",
                 "TALLINN": "Estonia", "HELSINKI": "Finland", "PARIS": "France",
